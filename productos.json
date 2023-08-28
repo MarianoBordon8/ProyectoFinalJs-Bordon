@@ -1,0 +1,27 @@
+
+[
+    { "id": "1","imagen": "./image/1.jpeg","nombre": "Set matero negro","precio": 1500, "stock": 4},
+    { "id": "2","imagen": "./image/2.jpeg","nombre": "Set matero hojas","precio": 1600, "stock": 5},
+    { "id": "3","imagen": "./image/3.jpeg","nombre": "Set matero perros","precio": 1700, "stock": 8},
+    { "id": "4","imagen": "./image/4.jpeg","nombre": "Cartuchera mickey","precio": 1000, "stock": 5},
+    { "id": "5","imagen": "./image/5.jpeg","nombre": "Set matero verde y blanco","precio": 900, "stock": 3},
+    { "id": "6","imagen": "./image/6.jpeg","nombre": "Cartuchera among us","precio": 800, "stock": 15},
+    { "id": "7","imagen": "./image/7.jpeg","nombre": "Cartuchera stitch","precio": 1200, "stock": 11},
+    { "id": "8","imagen": "./image/8.jpeg","nombre": "Cartuchera perros","precio": 1500, "stock": 10},
+    { "id": "9","imagen": "./image/9.jpeg","nombre": "Set matero cactus","precio": 1700, "stock": 9},
+    { "id": "10" ,"imagen": "./image/10.jpeg","nombre": "Cartuchera Soda Stereo","precio": 1200, "stock": 4},
+    { "id": "11" ,"imagen": "./image/11.jpeg","nombre": "Cartuchera Jupiter","precio": 1000, "stock": 5},
+    { "id": "12" ,"imagen": "./image/12.jpeg","nombre": "neceser chico","precio": 1500, "stock": 7},
+    { "id": "13" ,"imagen": "./image/13.jpeg","nombre": "Set desmaquillante rosa y azul","precio": 500, "stock": 4},
+    { "id": "14" ,"imagen": "./image/14.jpeg","nombre": "Cartuchera hojas","precio": 1450, "stock": 7},
+    { "id": "15" ,"imagen": "./image/15.jpeg","nombre": "Set desmaquillante azul","precio": 1550, "stock": 8},
+    { "id": "16" ,"imagen": "./image/16.jpeg","nombre": "Nidito rosa","precio": 1500, "stock": 3},
+    { "id": "17" ,"imagen": "./image/17.jpeg","nombre": "Cartuchera chica","precio": 1150, "stock": 6},
+    { "id": "18" ,"imagen": "./image/18.jpeg","nombre": "Nidito rosa personalizado","precio": 1200, "stock": 3},
+    { "id": "19" ,"imagen": "./image/19.jpeg","nombre": "Nidito mickey","precio": 1000, "stock": 8},
+    { "id": "20" ,"imagen": "./image/20.jpeg","nombre": "Nidito pandas","precio": 1100, "stock": 8},
+    { "id": "21" ,"imagen": "./image/21.jpeg","nombre": "Almohadones infantiles","precio": 400, "stock": 12},
+    { "id": "22" ,"imagen": "./image/22.jpeg","nombre": "Bolso matero","precio": 3000, "stock": 14},
+    { "id": "23" ,"imagen": "./image/23.jpeg","nombre": "Neceser grande","precio": 1500, "stock": 14},
+    { "id": "24" ,"imagen": "./image/24.jpeg","nombre": "Combo neceser","precio": 2500, "stock": 2}
+]

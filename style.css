@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    list-style: none
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #fff59d;
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 150px;
+}
+
+.disabled {
+    display: none;
+}
+
+#cantenedor-productos{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#cantenedor-productos .card {
+    width: 20%;
+    border-radius: 30px;
+    margin: 2%;
+    background-color: #1b3039;
+    box-shadow: 7px 13px 37px #000;
+}
+#cantenedor-productos .card .div-imagen{
+    display: flex;
+    justify-content: center;
+}
+#cantenedor-productos .card img{
+    border-radius: 50px;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+#cantenedor-productos .card h2{
+    padding: 25px;
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    color: #85afec;
+    font-size: 1em;
+}
+#cantenedor-productos .card h3{
+    display: flex;
+    justify-content: center;
+    color: #85afec;
+}
+#cantenedor-productos .card h4  {
+    display: flex;
+    justify-content: center;
+    color: #85afec;
+}
+#cantenedor-productos .card button{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    width: 80%;
+    margin: 10%;
+    background-color: #4ba9d1;
+}
+#cantenedor-productos .card button:hover {
+    background-color: #23769a;
+}
+
+
+
+/*CARRITO*/
+
+#contenedor-carrito{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#contenedor-carrito .card-carrito{
+    width: 20%;
+    border-radius: 30px;
+    margin: 2%;
+    background-color: #1b3039;
+    box-shadow: 7px 13px 37px #000;
+}
+#contenedor-carrito .card-carrito .div-imagen{
+    display: flex;
+    justify-content: center;
+}
+#contenedor-carrito .card-carrito img{
+    border-radius: 50px;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+#contenedor-carrito .card-carrito h2{
+    padding: 25px;
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    color: #85afec;
+    font-size: 30px;
+}
+#contenedor-carrito .card-carrito h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #85afec;
+}
+#contenedor-carrito .card-carrito h4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #85afec;
+}
+#contenedor-carrito .card-carrito p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #85afec;
+}
+#contenedor-carrito .card-carrito button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 50px;
+    width: 80%;
+    height: 7%;
+    margin: 10%;
+    background-color: #4ba9d1;
+    padding-top: 8px;
+}
+#contenedor-carrito .card-carrito button path{
+    color: #010c2e;
+}
+#contenedor-carrito .card-carrito button:hover {
+    background-color: #23769a;
+}
+.carrito #acciones{
+    color: black;
+}
+.carrito #acciones p{
+    width: 50%;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+}
+.carrito #acciones button{
+    width: 20%;
+    color: black;
+    background-color: #4ba9d1;
+    border-radius: 50px;
+    margin: 2%;
+}
+.carrito #acciones button:hover {
+    background-color: #23769a;
+}
+
+
+/*header*/
+
+header {
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 10%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+header nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+header nav div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1b3039;
+    width: 20%;
+    color: white;
+}
+header nav div:hover{
+    background-color: #0d224b;
+    border-radius: 50px;
+}
+header nav div p{
+    display: inline;
+}
+header nav div a{
+    text-decoration: none;
+    color: white;
+}
